@@ -1,0 +1,276 @@
+
+/*Main Header */
+
+
+.main-container, .footer-margin{
+    margin: 0 50px;
+}
+
+.footer-container{
+    margin: 0;
+    background-color: rgb(212, 211, 211);
+}
+
+.main-header{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-container a{
+    color: rgba(0,0,0,0.9);
+    text-decoration: none;
+}
+
+.footer-container a:hover{
+    text-decoration: underline;
+}
+
+/* Header Top */
+.header-top{
+    display: flex;
+    align-items: center;
+ 
+    height: 54px;
+}
+
+.header-logo{
+   flex: 1;
+
+}
+
+.main-nav{
+    flex: 3;
+   
+}
+
+.accessibility{
+  flex: 1;
+
+}
+
+.menu{
+    display: flex;
+}
+
+.access-menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+.access-menu a{
+    color: var(--primary-color);
+}
+
+.logo{
+    width: 120px;
+}
+
+.menu-item a{
+    padding: 10px;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    
+}
+
+/* Header Bottom */
+.header-bottom{
+    background: chartreuse;
+    height: 450px;
+}
+
+.header-showcase{
+    height: 100%;
+    width: 100%;
+    background-image: url('/img/banner.png');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.showcase-content{
+    height: 100%;
+    width: 100%;
+    padding: 30px 0 0 50px;
+}
+
+.showcase-heading, .showcase-text{
+    margin-bottom: 20px;
+}
+
+/* Utilities */
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--secondary-color);;
+    text-decoration: none;
+}
+/* 
+.py{
+    padding: 30px 0;
+}
+
+.px{
+    padding: 0 30px;
+}
+ */
+
+.btn-content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.btn-icon{
+   margin-left: 5px;
+ }
+
+
+ /* Section: Product */
+
+ .product{
+     display: flex;
+     list-style: none;
+     justify-content: space-around;
+     padding: 70px;
+ }
+
+ .item-box{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .product-item a{
+    color: var(--primary-color);
+}
+
+ .product-icon{
+     font-size: 3rem;
+     margin-bottom: 10px;
+ }
+
+ .product-title{
+    font-weight: bold;
+}
+
+/* Section: Sub Products */
+
+.sub-products-container{
+    display: flex;
+}
+
+.sub-products-container img{
+    width: 280px;
+}
+
+.sub-products-container h2{
+    font-size: 1.1rem;
+}
+.sub-product-link{
+    color: var(--primary-color);
+}
+
+.sub-box{
+    flex: 1;
+}
+
+.sub-product-box{
+    padding: 20px;
+}
+
+.sub-products-container h2,
+.sub-products-container p {
+    margin: 10px 0;
+}
+
+.sub-box-link{
+    color: rgb(11, 105, 182);
+}
+
+.btn-double{
+    display: block;
+}
+
+/* Xbox-showcase */
+
+.xbox-showcase-header{
+    background: chartreuse;
+    height: 450px;
+}
+
+.xbox-showcase{
+    height: 100%;
+    width: 100%;
+    background-image: url('/img/xbox-showcase.png');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.xbox-showcase-content{
+    height: 100%;
+    width: 100%;
+    padding: 150px 0 0 50px;
+    
+}
+
+.xbox-showcase-heading, .xbox-showcase-text{
+    margin-bottom: 20px;
+}
+
+/* Socialmedia */
+
+.follow{
+    margin-right: 20px;
+}
+
+.socialmedia-btn{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    list-style: none;
+    
+}
+
+.socialmedia-item{
+    margin-left: 15px;
+}
+
+/* Footer-1 */
+
+.footer-1{
+    width: 100%;
+    display: flex;
+}
+
+.footer-item{
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.nyheter, .microsoft-store, .utbildning, .företag, .utvecklare{
+    margin-top: 40px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.footer-2{
+    width: 100%;
+    font-size: 11px;
+    padding-bottom: 15px;
+}
+
+.footer-2-item, .footer-2-item-left{   
+    
+    display: inline;
+    margin-right: 20px;
+     
+}
+
+.footer-2-item-left{
+    margin-right: 700px;
+}
