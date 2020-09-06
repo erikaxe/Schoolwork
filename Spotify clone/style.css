@@ -1,0 +1,113 @@
+/* Navbar */
+
+.body{
+    font-family: helvetica;
+    margin: 0px;
+}
+
+.navbar{
+    height: 80px;
+    background-color: black;
+    font-size: 16px;
+    margin: 0px; 
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    margin: 0px 200px;
+    flex: 1;
+}
+
+.flex-wrapper{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.flex-wrapper ul{    
+    flex: 1;
+    text-align: right;    
+}
+
+.navbar ul li{
+    color: white;
+    display: inline;
+    margin-left: 20px;
+}
+
+.logo{
+    width: 131px;
+}
+
+
+
+/* Header */
+
+.header{
+    background-color: blue;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: flex;
+}
+
+.wrap{
+    background: url(https://www.scdn.co/i/home/lieVariants/bursts.svg) no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.h1{
+    color: chartreuse;
+    font-size: 156px;
+    text-indent: -3.3em;
+    width: 800px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.h4{
+    color: chartreuse;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+.btn-content{
+    color: #2940a8;
+    background-color: #1ED760;
+    border-radius: 50%;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    padding: 16px 40px 16px;
+    margin-left: 650px;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+/* Footer */
+
+.footer ul{
+    list-style: none;
+    background-color: black;
+    color: white;
+}
+
+.footer-header{
+    margin-top: 0px;
+}
+
+
+.företaget, .communities, .länkar{
+    margin-top: 0px;
+    list-style: none;
+    
+}
