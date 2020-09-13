@@ -1,0 +1,136 @@
+/* Navbar */
+
+.body{
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    margin: 0px;
+}
+
+.navbar, .footer {
+    height: 80px;
+    background-color: black;
+    font-size: 16px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.footer {
+    height: auto;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.flex-wrapper{
+    display: flex;
+}
+
+.flex-wrapper ul{
+    flex: 1;
+    text-align: right;
+}
+
+.navbar ul li{
+    color: white;
+    display: inline;
+    margin-left: 20px;
+}
+
+.logo{
+    width: 131px;
+}
+
+.footer .logo {
+    margin-top: 20px;
+}
+
+.footer ul {
+    text-align: left;
+}
+
+.footer ul li {
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footer ul li h4 {
+    color: #919496;
+    font-size: 12px;
+}
+
+.footer ul li:hover {
+    color: #1ED760;
+}
+
+
+/* Header */
+
+.header{
+    background-color: #2D46B9;
+    margin-top: 80px;
+}
+
+.wrap{
+    background: url(https://www.scdn.co/i/home/lieVariants/bursts.svg) no-repeat;
+    background-size: 170%;
+    background-position: 44% 7%;
+    text-align: center;
+}
+
+.h1{
+    color: #1ED760;
+    font-size: 120px;
+    text-indent: -3.3em;
+    width: 800px;
+    margin: 100px auto 20px;
+    display: inline-block;
+}
+
+.h4{
+    color: #1ED760;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+
+.btn-content{
+    color: #2940a8;
+    background-color: #1ED760;
+    border-radius: 50%;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    padding: 16px 40px 16px;
+    border: 1px solid;
+    border-radius: 25px;
+    margin-bottom: 200px;
+}
+
+@media(max-width: 1200px) {
+    .wrap {
+        background: none;
+    }
+    .container {
+        width: 100%;
+        margin: 0 50px;
+    }
+    .h1 {
+        text-indent: 0px;
+    }
+}
